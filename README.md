@@ -1,9 +1,9 @@
 # 基于Vue.js电商网站项目开发
 
-> 注释版/教程版，稍有修改
+> 注释版/教程版，对于源代码稍有修改。欢迎star
 
 * [概述](#概述)
-* [vue-router](#vuerouter)
+* [vue-router](#vue-router)
 * [Vuex](#vuex)
 
 ## 概述
