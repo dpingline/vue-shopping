@@ -23,11 +23,14 @@ const router = new VueRouter(RouterConfig);
 将所有的路由都指向一个html，或设置404页面为该html。否则刷新时页面会出现404。
 在package.json修改dev命令，增加了--history-api-fallback，所有的路由指向index.html */
 
+//切换到不同页面时，改变标题
 router.beforeEach((to, from, next) => {
     window.document.title = to.meta.title;
     next();
 });
 
+//一个页面较长，滚动到某个位置，在跳转到另一个页面
+//滚动条默认是在上一个页面停留的位置，二号的体验肯定是能返回顶端
 router.afterEach((to, from, next) => {
     window.scrollTo(0, 0);
 });
