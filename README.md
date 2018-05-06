@@ -5,6 +5,7 @@
 * [概述](#概述)
 * [vue-router](#vue-router)
 * [Vuex](#vuex)
+* [使用说明](#使用说明)
 
 ## 概述
 来自《Vue.js项目实战》  
@@ -200,3 +201,20 @@ const store = new Vue.Store({
 
 ```
 module的mutation和getter接收的第一个参数state是当前模块的状态，在action和getters中，还可以接受一个参数rootState，来访问根节点的状态
+
+## 使用说明
+```
+//克隆代码
+git clone https://github.com/sophiayang1997/vue-shopping
+
+//安装依赖
+npm install
+
+//开发环境启动服务
+npm run dev
+
+//打包命令
+npm run build
+或者
+webpack --progress --hide-modules
+```
