@@ -215,6 +215,6 @@ npm run dev
 
 //打包命令
 npm run build
-或者
+//或者
 webpack --progress --hide-modules
 ```
